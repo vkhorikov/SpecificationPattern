@@ -5,6 +5,7 @@ Specification pattern implementation in C#
 
 This is a source code for the article regarding Specification pattern implementation.
 
+Pluralsight course: [Specification Pattern in C#][L4]
 Link: [Specification pattern: C# implementation][L2]
 
 Licence
@@ -14,3 +15,4 @@ Licence
 [L1]: http://www.apache.org/licenses/LICENSE-2.0
 [L2]: http://enterprisecraftsmanship.com/2016/02/08/specification-pattern-c-implementation/
 [L3]: https://github.com/vkhorikov/SpecPattern
+[L4]: http://www.pluralsight.com/courses/csharp-specification-pattern

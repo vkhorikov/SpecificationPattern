@@ -6,6 +6,7 @@ Specification pattern implementation in C#
 This is a source code for the article regarding Specification pattern implementation.
 
 Pluralsight course: [Specification Pattern in C#][L4]
+
 Link: [Specification pattern: C# implementation][L2]
 
 Licence

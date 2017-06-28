@@ -7,7 +7,7 @@ This is a source code for the article regarding Specification pattern implementa
 
 Pluralsight course: [Specification Pattern in C#][L4]
 
-Link: [Specification pattern: C# implementation][L2]
+Blog post: [Specification pattern: C# implementation][L2]
 
 Licence
 --------------

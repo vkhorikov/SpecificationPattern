@@ -14,7 +14,7 @@ namespace SpecificationPattern
 {
     public static class SessionFactory
     {
-        private const string ConnectionString = "Server=.;Database=SpecificationPattern;Trusted_Connection=true;";
+        private const string ConnectionString = @"Server=.;Database=SpecificationPattern;Trusted_Connection=true;";
 
         private static readonly ISessionFactory _factory;
 

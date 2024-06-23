@@ -6,8 +6,13 @@ namespace SpecificationPattern {
 
         private readonly ParameterExpression _parameter;
 
-        protected override Expression VisitParameter(ParameterExpression node) 
-            => base.VisitParameter(_parameter);
+        protected override Expression VisitParameter(ParameterExpression node) {
+            if (_parameter.Type != node.Type) {
+                return node;
+            }
+
+            return base.VisitParameter(_parameter);
+        }
 
         internal ParameterReplacer(ParameterExpression parameter) {
             _parameter = parameter;
